@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 class LoginComponent extends Component {
   state = {};
@@ -42,7 +43,7 @@ class LoginComponent extends Component {
               onChange={this.handleChange}
             />
             <br />
-            <p className="small">Not Registered? <a href="#">Create an account</a></p>
+            <p className="small">Not Registered? <Link to="/register">Create an account</Link></p>
             <button
               className="btn btn-primary"
               id="submit"
