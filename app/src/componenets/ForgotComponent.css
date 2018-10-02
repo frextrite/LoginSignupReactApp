@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+
+* {
+  transition: all 0.4s;
+  outline: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.forgot {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #f2f2f2;
+}
+
+.wrap-forgot {
+  background: #fff;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 75px 55px 10px 40px;
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.forgot-form {
+  width: 100%;
+}
+
+.form-head {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  font-size: 30px;
+  color: #333333;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.wrap-label-input {
+  position: relative;
+  margin-left: 10px;
+}
+
+.input-field {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid rgba(0,0,0,0.4);
+  display: block;
+  z-index: 10;
+  width: 95%;
+}
+
+.label-field {
+  text-transform: uppercase;
+  position: absolute;
+  pointer-events: none;
+  top: 2px;
+  opacity: 0.8;
+}
+
+.input-field:focus {
+  border-bottom: 2px solid rgba(35,54,231,1);
+}
+
+.input-field:focus ~ .label-field,
+.input-field:valid ~ .label-field {
+  font-size: 75%;
+  opacity: 1;
+  transform: translate3d(0, -100%, 0);
+}
+
+.forgot-btn {
+  display: inline;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.login-btn {
+  display: inline;
+  margin-left: 10px;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.small {
+  margin-top: 50px;
+  margin-left: -10px;
+  text-align: center;
+}
+
