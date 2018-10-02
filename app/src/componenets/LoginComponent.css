@@ -84,10 +84,10 @@
   transform: translate3d(0, -100%, 0);
 }
 
-.login-btn {
+.login-btn-lg {
   display: block;
   margin-left: 10px;
-  width: 90%;
+  width: 92%;
   margin-bottom: 20px;
 }
 
@@ -98,8 +98,9 @@
 }
 
 .forgot-pass {
+  text-align: right;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-right: 10px;
   font-size: 12px;
 }
 

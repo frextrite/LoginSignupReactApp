@@ -54,7 +54,7 @@ class LoginComponent extends Component {
                 <Link to="/forgot">Forgot Password?</Link>
               </p>
               <button
-                className="login-btn btn btn-primary"
+                className="login-btn-lg btn btn-primary"
                 id="submit"
                 onClick={this.handleSubmit}
               >
