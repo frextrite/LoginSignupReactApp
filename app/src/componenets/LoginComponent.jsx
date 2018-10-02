@@ -50,6 +50,9 @@ class LoginComponent extends Component {
                 <label className="label-field" htmlFor="password">Password</label>
                 <br />
               </div>
+              <p className="forgot-pass">
+                <Link to="/forgot">Forgot Password?</Link>
+              </p>
               <button
                 className="login-btn btn btn-primary"
                 id="submit"
@@ -57,7 +60,7 @@ class LoginComponent extends Component {
               >
                 Login
               </button>
-              <p className="small">
+              <p className="small nr">
                 Not Registered? <Link to="/register">Create an account</Link>
               </p>
             </fieldset>

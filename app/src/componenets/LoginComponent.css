@@ -91,9 +91,15 @@
   margin-bottom: 20px;
 }
 
-.small {
+.nr {
   margin-top: 50px;
   margin-left: -10px;
   text-align: center;
+}
+
+.forgot-pass {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 12px;
 }
 
