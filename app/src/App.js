@@ -3,7 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import LoginComponent from "./componenets/LoginComponent";
 import RegisterComponent from "./componenets/RegisterComponent";
-import HomeComponent from "./componenets/HomeComponent"
+import HomeComponent from "./componenets/HomeComponent";
+import ForgotComponent from "./componenets/ForgotComponent";
 import { BrowserRouter, Route } from "react-router-dom";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
             <Route exact path="/" component={HomeComponent} />
             <Route path="/login" component={LoginComponent} />
             <Route path="/register" component={RegisterComponent} />
+            <Route path="/forgot" component={ForgotComponent} />
           </div>
         </BrowserRouter>
       </div>
