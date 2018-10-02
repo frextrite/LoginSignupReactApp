@@ -85,6 +85,7 @@
 }
 
 .login-btn-lg {
+  height: 50px;
   display: block;
   margin-left: 10px;
   width: 92%;
